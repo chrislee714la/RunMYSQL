@@ -1,0 +1,24 @@
+create table TIMESLOT
+( DAY varchar(9),
+  BEGIN integer(4,0),
+  END integer(4,0) );
+
+
+
+insert into TIMESLOT values ('Mon & Wed',0800,0920);
+insert into TIMESLOT values ('Mon & Wed',0945,1100);
+insert into TIMESLOT values ('Mon & Wed',1400,1620);
+insert into TIMESLOT values ('Tues & Thurs',0800,0920);
+insert into TIMESLOT values ('Tues & Thurs',1800,2340);
+insert into TIMESLOT values ('Tues',1000,1420);
+insert into TIMESLOT values ('Wed',1230,1400);
+insert into TIMESLOT values ('Sat',0800,0920);
+insert into TIMESLOT values ('Mon & Wed',0800,0920);
+insert into TIMESLOT values ('Mon & Wed',1420,1500);
+insert into TIMESLOT values ('Fri',0800,0920);
+insert into TIMESLOT values ('Mon & Fri',0800,0920);
+insert into TIMESLOT values ('Mon & Wed',0800,0920);
+insert into TIMESLOT values ('Thurs',0800,0920);
+insert into TIMESLOT values ('Thurs',0800,0920);
+insert into TIMESLOT values ('Mon & Wed',0800,0920);
+
