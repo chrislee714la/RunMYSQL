@@ -1,0 +1,28 @@
+create table TRANSCRIPT
+( UIDCODE integer,
+  COURSEID integer,
+  GRADE integer );
+  
+
+insert into TRANSCRIPT values ('200000001',,);
+insert into TRANSCRIPT values ('200000003',,);
+insert into TRANSCRIPT values ('200000005',,);
+insert into TRANSCRIPT values ('200000005',,);
+insert into TRANSCRIPT values ('200000007',,);
+insert into TRANSCRIPT values ('200000008',,);
+insert into TRANSCRIPT values ('200000015',,);
+insert into TRANSCRIPT values ('200000017',,);
+insert into TRANSCRIPT values ('200000020',,);
+insert into TRANSCRIPT values ('200000020',,);
+insert into TRANSCRIPT values ('200000021',,);
+insert into TRANSCRIPT values ('200000022',,);
+insert into TRANSCRIPT values ('200000024',,);
+insert into TRANSCRIPT values ('200000026',,);
+insert into TRANSCRIPT values ('200000028',,);
+insert into TRANSCRIPT values ('200000030',,);
+insert into TRANSCRIPT values ('200000032',,);
+insert into TRANSCRIPT values ('200000034',,);
+insert into TRANSCRIPT values ('200000036',,);
+insert into TRANSCRIPT values ('200000043',,);
+insert into TRANSCRIPT values ('200000044',,);
+insert into TRANSCRIPT values ('200000045',,);
