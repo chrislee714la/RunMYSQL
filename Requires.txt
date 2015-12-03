@@ -1,0 +1,36 @@
+create table REQUIRES
+( DEPTCODE_COURSE char(4)
+  COURSEID_COURSE integer(3,0),
+  DEPTCODE_COURSE char(4)
+  COURSEID_PREREQUISITE integer(3,0) );
+
+insert into REQUIRES values ('Math',201,'Math',101);
+insert into REQUIRES values ('Math',301,'Math',201);
+insert into REQUIRES values ('Math',401,'Math',301);
+insert into REQUIRES values ('CmpS',201,'CmpS',101);
+insert into REQUIRES values ('CmpS',201,'Math',101);
+insert into REQUIRES values ('CmpS',202,'CmpS',101);
+insert into REQUIRES values ('CmpS',203,'CmpS',101);
+insert into REQUIRES values ('CmpS',301,'CmpS',201);
+insert into REQUIRES values ('CmpS',302,'CmpS',101);
+insert into REQUIRES values ('CmpS',303,'CmpS',203);
+insert into REQUIRES values ('CmpS',401,'CmpS',301);
+insert into REQUIRES values ('CmpS',401,'CmpS',302);
+insert into REQUIRES values ('CmpS',401,'CmpS',303);
+insert into REQUIRES values ('CmpS',402,'Math',301);
+insert into REQUIRES values ('CmpS',402,'Engl',112);
+insert into REQUIRES values ('Ceng',101,'Math',101);
+insert into REQUIRES values ('Thea',102,'Thea',101);
+insert into REQUIRES values ('Engl',112,'Engl',111);
+insert into REQUIRES values ('Engl',225,'Engl',112);
+insert into REQUIRES values ('Buss',201,'Buss',101);
+insert into REQUIRES values ('Hist',102,'Hist',101);
+insert into REQUIRES values ('Hist',312,'Hist',102);
+insert into REQUIRES values ('Hist',313,'Hist',312);
+insert into REQUIRES values ('Mktg',111,'Comm',110);
+insert into REQUIRES values ('Beng',111,'Biol',101);
+insert into REQUIRES values ('Econ',111,'Buss',101);
+insert into REQUIRES values ('Chem',115,'Engl',111);
+
+
+
