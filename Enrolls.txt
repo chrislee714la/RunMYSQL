@@ -1,0 +1,34 @@
+create table ENROLLS
+( UIDCODE  char(4,0),
+  DEPTCODE char(4),
+  COURSEID integer(3,0),
+  SECTIONNUMBER integer(2,0) );
+  
+  
+insert into ENROLLS values (2001,'Math',101,00);
+insert into ENROLLS values (2002,'Math',101,00);
+insert into ENROLLS values (2003,'CmpS',401,01);
+insert into ENROLLS values (2003,'Beng',111,00);
+insert into ENROLLS values (2004,'CmpS',102,01);
+insert into ENROLLS values (2006,'Biol',101,00);
+insert into ENROLLS values (2007,'Ceng',101,01);
+insert into ENROLLS values (2008,'Buss',201,00);
+insert into ENROLLS values (2009,'Comm',110,00);
+insert into ENROLLS values (2010,'Math',101,00);
+insert into ENROLLS values (2011,'Buss',201,00);
+insert into ENROLLS values (2012,'Hist',312,00);
+insert into ENROLLS values (2012,'Attr',111,00);
+insert into ENROLLS values (2012,'CmpS',101,01);
+insert into ENROLLS values (2013,'Econ',111,01);
+insert into ENROLLS values (2020,'Chem',115,00);
+insert into ENROLLS values (2026,'Biol',101,00);
+insert into ENROLLS values (2027,'Thea',102,01);
+insert into ENROLLS values (2028,'Ceng',101,00);
+insert into ENROLLS values (2029,'Ceng',101,01);
+insert into ENROLLS values (2030,'Ceng',101,00);
+insert into ENROLLS values (2032,'Engl',225,00);
+insert into ENROLLS values (2041,'Hist',313,00);
+insert into ENROLLS values (2041,'Acct',101,00);
+insert into ENROLLS values (2042,'Mktg',111,00);
+
+
