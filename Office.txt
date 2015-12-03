@@ -1,0 +1,36 @@
+create table Office
+( ROOM integer(3,0),
+  BUILDING char(3),
+  TOTALAREA varchar2(20) );
+
+
+insert into OFFICE values (119,'AAA',);   / each first x00 is dept office
+insert into OFFICE values (102,'AAA',);
+insert into OFFICE values (302,'AAA',);
+insert into OFFICE values (303,'AAA',);
+insert into OFFICE values (103,'BBB',);
+insert into OFFICE values (104,'BBB',);
+insert into OFFICE values (105,'BBB',);
+insert into OFFICE values (303,'BBB',);
+insert into OFFICE values (106,'CCC',);
+insert into OFFICE values (107,'CCC',);
+insert into OFFICE values (108,'CCC',);
+insert into OFFICE values (109,'CCC',);
+insert into OFFICE values (110,'DDD',);
+insert into OFFICE values (111,'DDD',);
+insert into OFFICE values (112,'DDD',);
+insert into OFFICE values (303,'DDD',);
+insert into OFFICE values (113,'EEE',);
+insert into OFFICE values (114,'EEE',);
+insert into OFFICE values (115,'EEE',);
+insert into OFFICE values (303,'EEE',);
+insert into OFFICE values (116,'FFF',);
+insert into OFFICE values (117,'FFF',);
+insert into OFFICE values (118,'FFF',);
+insert into OFFICE values (119,'FFF',);
+insert into OFFICE values (300,'GGG',);   / building GGG not used by any dept
+insert into OFFICE values (301,'GGG',);
+insert into OFFICE values (302,'GGG',);
+insert into OFFICE values (303,'GGG',);
+
+
