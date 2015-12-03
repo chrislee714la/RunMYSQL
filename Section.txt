@@ -1,0 +1,65 @@
+create table SECTION
+( DEPTCODE char(4),
+  COURSEID char(3,0),
+  SECTIONNUMBER integer(2,0),
+  FACULTYID# char(4,0) );
+  
+  
+insert into SECTION values ('Math',101,00,'9020');
+insert into SECTION values ('Math',201,00,'9020');
+insert into SECTION values ('CmpS',101,00,'9008');   // chair doesnt teach & non-cs teaches CS
+insert into SECTION values ('CmpS',101,01,'9022');
+insert into SECTION values ('CmpS',101,01,'9022');
+insert into SECTION values ('CmpS',102,00,'9022');
+insert into SECTION values ('CmpS',102,01,'9022');
+insert into SECTION values ('CmpS',201,00,'9021');
+insert into SECTION values ('CmpS',202,01,'9022');
+insert into SECTION values ('CmpS',203,01,'9021');
+insert into SECTION values ('CmpS',203,00,'9022');
+insert into SECTION values ('CmpS',301,00,'9021');
+insert into SECTION values ('CmpS',302,00,'9021');
+insert into SECTION values ('CmpS',303,00,'9021');
+insert into SECTION values ('CmpS',401,00,'9021');
+insert into SECTION values ('CmpS',401,01,'9022');
+insert into SECTION values ('CmpS',402,00,'9022');
+insert into SECTION values ('Biol',101,00,'9003');
+insert into SECTION values ('Ceng',101,00,'9004');
+insert into SECTION values ('Ceng',101,01,'9004');
+insert into SECTION values ('Thea',101,00,'9005');
+insert into SECTION values ('Thea',101,01,'9025');
+insert into SECTION values ('Thea',102,00,'9025');
+insert into SECTION values ('Thea',102,01,'9005');
+insert into SECTION values ('Comm',110,00,'9026');   // chair doesnt teach
+insert into SECTION values ('Engl',111,00,'9007');     
+insert into SECTION values ('Engl',112,00,'9007');
+insert into SECTION values ('Engl',225,00,'9027');
+insert into SECTION values ('Buss',101,00,'9020');   // chair teaches another major class
+insert into SECTION values ('Buss',201,00,'9028');
+insert into SECTION values ('Hist',101,00,'9029');
+insert into SECTION values ('Hist',101,01,'9029');
+insert into SECTION values ('Hist',102,00,'9029');
+insert into SECTION values ('Hist',211,00,'9009');
+insert into SECTION values ('Hist',312,00,'9009');
+insert into SECTION values ('Hist',313,00,'9031');
+insert into SECTION values ('Acct',101,00,'9011');
+insert into SECTION values ('Anth',101,00,'9012');
+insert into SECTION values ('AHis',111,00,'9013');
+insert into SECTION values ('Asty',101,00,'9014');
+insert into SECTION values ('Attr',111,00,'9015');
+insert into SECTION values ('Beng',111,00,'9016');
+insert into SECTION values ('Chem',115,00,'9017');
+insert into SECTION values ('CHea',101,00,'9018');
+insert into SECTION values ('Mktg',111,00,'9010');
+insert into SECTION values ('Econ',111,00,'9019');
+insert into SECTION values ('Econ',111,01,'9019');
+insert into SECTION values (,,,);                    
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+insert into SECTION values (,,,);
+
