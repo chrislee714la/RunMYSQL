@@ -1,0 +1,54 @@
+create table STUDENT
+( DEPTCODE char(4),
+  UIDCODE  char(4,0),
+  STUDENTNAME varchar2(20),
+  ACADEMICSTATUS varchar2(10) );
+
+
+
+
+insert into STUDENT values ('Math','2001','Chris Lee','freshman');
+insert into STUDENT values ('CmpS','2002','Willy Tome','sophomore');
+insert into STUDENT values ('CmpS','2003','Michael Ain','junior');
+insert into STUDENT values ('CmpS','2004','Karen Zeen', 'senior');
+insert into STUDENT values ('CmpS','2005','Kyle Kicker','senior');
+insert into STUDENT values ('Biol','2006','Eddy Lot','freshman');
+insert into STUDENT values ('Ceng','2007','Boris Silva','freshman');
+insert into STUDENT values ('Thea' '2008','John Lone','freshman');
+insert into STUDENT values ('Comm','2009','Janet Wall','sophomore');
+insert into STUDENT values ('Engl','2010','Ned Biz','junior');
+insert into STUDENT values ('Buss','2011','James Worth', 'senior');
+insert into STUDENT values ('Hist','2012','John Pitt','freshman');
+insert into STUDENT values ('Mktg','2013','Robert Johnson','sophomore');
+insert into STUDENT values ('Acct','2014','Ken Kelly', 'junior');
+insert into STUDENT values ('Anth','2015','Jeff Price','freshman');
+insert into STUDENT values ('AHis','2016','Venn Torres','sophomore');
+insert into STUDENT values ('Asty','2017','Albert Hernandez','junior');
+insert into STUDENT values ('Attr','2018','Teddy Anderson','senior');
+insert into STUDENT values ('Beng','2019','George White','freshman');
+insert into STUDENT values ('Chem','2020','Thomas Lewis','sophomore');
+insert into STUDENT values ('CHea','2021','Adrian Adon','junior');
+insert into STUDENT values ('Econ','2022','Agnes Wagner','senior');
+insert into STUDENT values ('Math','2023','Alene Colle','freshman');
+insert into STUDENT values ('Math','2024','Alicia Locke','sophomore');
+insert into STUDENT values ('Math','2025','Alita Conrad','junior');
+insert into STUDENT values ('Biol','2026','Allen Gosling','senior');
+insert into STUDENT values ('Biol','2027','Allison Martin','freshman');
+insert into STUDENT values ('Ceng','2028','Amber Connery','sophomore');
+insert into STUDENT values ('Ceng','2029','Andre Needy','junior');
+insert into STUDENT values ('Ceng','2030','Ann King','freshman');
+insert into STUDENT values ('Thea' '2031','Scott Lasso','junior');
+insert into STUDENT values ('Thea' '2032','Thomas Ekin','senior');
+insert into STUDENT values ('Thea' '2033','Lauren Draken','freshman');
+insert into STUDENT values ('Thea' '2034','Kal Ward','freshman');
+insert into STUDENT values ('Comm','2035','Jack Griffin','sophomore');
+insert into STUDENT values ('Comm','2036','Manny Hayes','junior');
+insert into STUDENT values ('Engl','2038','Olly Simmons','junior');
+insert into STUDENT values ('Engl','2039','Ingrid Bryant','junior');
+insert into STUDENT values ('Buss','2040','Sid Washington', 'senior');
+insert into STUDENT values ('Hist','2041','Gary Ross','freshman');
+insert into STUDENT values ('Mktg','2042','Victoria Barnes','sophomore');
+insert into STUDENT values ('Mktg','2043','Todd Couture','sophomore');
+insert into STUDENT values ('Acct','2044','Julie Turner', 'junior');
+insert into STUDENT values ('Anth','2045','Becky Franklin','freshman');
+
