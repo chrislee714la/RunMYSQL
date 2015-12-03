@@ -1,0 +1,47 @@
+create table COURSE
+( DEPTCODE char(4),
+  COURSEID integer,
+  TITLE varchar2(20),
+  NUMCREDITS integer );
+
+
+insert into COURSE values ('Math',101,'Calc I',3);
+insert into COURSE values ('Math',201,'Calc II',3);
+insert into COURSE values ('Math',301,'Calc III',4);
+insert into COURSE values ('Math',401,'Calc IV',4);
+insert into COURSE values ('CmpS',101,'Intro to CS',3);
+insert into COURSE values ('CmpS',102,'Intro to Programming',4);
+insert into COURSE values ('CmpS',201,'Intro to Java',3);
+insert into COURSE values ('CmpS',202,'Intro to C',3);
+insert into COURSE values ('CmpS',203,'Intro to C++',4);
+insert into COURSE values ('CmpS',301,'Data Structures',4);
+insert into COURSE values ('CmpS',302,'Formal Methods',3);
+insert into COURSE values ('CmpS',303,'CS Synthesis',3);
+insert into COURSE values ('CmpS',401,'Intro to Database',3);
+insert into COURSE values ('CmpS',402,'Analysis of Algorithms',4);
+insert into COURSE values ('Biol',101,'Bio I',4);
+insert into COURSE values ('Ceng',101,'Intro to Civil Engineering',4);
+insert into COURSE values ('Thea',101,'Survey of Acting',2);
+insert into COURSE values ('Thea',102,'Principles of Performance Art',3);
+insert into COURSE values ('Comm',110,'Intro to Communications',3);
+insert into COURSE values ('Engl',111,'College Composition I', 3);
+insert into COURSE values ('Engl',112,'College Composition II', 4);
+insert into COURSE values ('Engl',225,'English Literature', 3);
+insert into COURSE values ('Buss',101,'Business Principles I,3);
+insert into COURSE values ('Buss',201,'Business Principles II,4);
+insert into COURSE values ('Hist',101,'Intro to Western Civilization,4);
+insert into COURSE values ('Hist',102,'American History I',3);
+insert into COURSE values ('Hist',211,'History of Africa',4);
+insert into COURSE values ('Hist',312,'American History II,4);
+insert into COURSE values ('Hist',313,'American History III,4);
+insert into COURSE values ('Mktg',111,'Intro to Marketing',3);
+insert into COURSE values ('Acct',101,'Accounting Principles',3);
+insert into COURSE values ('Anth',101,'Intro to Anthropology',4);
+insert into COURSE values ('AHis',111,'Intro to Art History',4);
+insert into COURSE values ('Asty',101,'Astronomy Principles',3);
+insert into COURSE values ('Beng',111,'Intro to Bioengineering',4);
+insert into COURSE values ('Chem',115,'Chemistry I,5);
+insert into COURSE values ('CHea',101,'Community Health Principles',3);
+insert into COURSE values ('Econ',111,'Microeconomics',4);
+insert into COURSE values ('Attr',101,'Athletic Training Principles',3);
+
