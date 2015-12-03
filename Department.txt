@@ -1,0 +1,34 @@
+create table DEPARTMENT(
+( DEPTCODE char(4),
+  DEPTNAME varchar2(30),
+  PHONEEXTENSION integer(4,0),
+  CHAIRS_FACULTYID# char(4),
+  ROOM integer(3,0),
+  BUILDING char(3) );
+
+ 
+
+insert into DEPARTMENT values ('Math','Mathematics',1001,'9001',119,'AAA');  
+insert into DEPARTMENT values ('CmpS','Computer Science',9002,'9002',102,'AAA');
+insert into DEPARTMENT values ('Biol','Biology',1003,'9003',103,'BBB');
+insert into DEPARTMENT values ('Ceng','Civil Engineering',1004,'9004',104,'BBB');
+insert into DEPARTMENT values ('Thea','Theater',1005,'9005',105,'BBB');
+insert into DEPARTMENT values ('Comm','Communications',1006,'9006',106,'CCC');
+insert into DEPARTMENT values ('Engl','English',1007,'9007',107,'CCC');
+insert into DEPARTMENT values ('Buss','Business',1008,'9008',108,'CCC');
+insert into DEPARTMENT values ('Hist','History',1009,'9009',109,'CCC');
+insert into DEPARTMENT values ('Mktg','Marketing',1010,9010,110,'DDD');
+insert into DEPARTMENT values ('Acct','Accounting',1011,9011,111,'DDD');
+insert into DEPARTMENT values ('Anth','Anthropology',1012,9012,112,'DDD');
+insert into DEPARTMENT values ('AHis','Art History',1013,9013,113,'EEE');
+insert into DEPARTMENT values ('Asty','Astronomy',1014,9014,114,'EEE');
+insert into DEPARTMENT values ('Attr','Athletic Training',1015,9015,115,'EEE');
+insert into DEPARTMENT values ('Beng','Bioengineering',1016,9016,116,'FFF');
+insert into DEPARTMENT values ('Chem','Chemistry',1017,9017,117,'FFF');
+insert into DEPARTMENT values ('CHea','Community Health',1018,9018,118,'FFF');
+insert into DEPARTMENT values ('Econ','Economics',1019,9019,119,'FFF');
+
+
+
+ 
+  
