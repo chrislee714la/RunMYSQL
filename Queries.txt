@@ -1,0 +1,178 @@
+SQL> @queries;
+
+UIDCODE   STUDENTNAME                                                           
+--------- ------------------------------                                        
+200000004 Karen Zeen                                                            
+
+
+DEPT COUNTENROLLMENT                                                            
+---- ---------------                                                            
+Ceng               4                                                            
+
+
+DEPTNAME                                                                        
+------------------------------                                                  
+Economics                                                                       
+
+
+DEPTNAME                       DEPT      TOTAL                                  
+------------------------------ ---- ----------                                  
+Computer Science               CmpS          1                                  
+Accounting                     Acct          1                                  
+History                        Hist          1                                  
+Marketing                      Mktg          1                                  
+Civil Engineering              Ceng          4                                  
+English                        Engl          1                                  
+Mathematics                    Math          3                                  
+Computer Science               CmpS          2                                  
+Communications                 Comm          1                                  
+Theater                        Thea          1                                  
+Bioengineering                 Beng          1                                  
+
+DEPTNAME                       DEPT      TOTAL                                  
+------------------------------ ---- ----------                                  
+Business                       Buss          2                                  
+History                        Hist          1                                  
+Chemistry                      Chem          1                                  
+Biology                        Biol          2                                  
+Economics                      Econ          2                                  
+
+16 rows selected.
+
+
+UIDCODE   STUDENTNAME                                                           
+--------- ------------------------------                                        
+200000010 Ned Biz                                                               
+200000007 Boris Silva                                                           
+200000008 John Lone                                                             
+200000029 Andre Needy                                                           
+200000011 James Worth                                                           
+200000012 John Pitt                                                             
+200000026 Allen Gosling                                                         
+200000004 Karen Zeen                                                            
+200000020 Thomas Lewis                                                          
+200000042 Victoria Barnes                                                       
+200000002 Willy Tome                                                            
+
+UIDCODE   STUDENTNAME                                                           
+--------- ------------------------------                                        
+200000030 Ann King                                                              
+200000009 Janet Wall                                                            
+200000001 Chris Lee                                                             
+200000032 Thomas Ekin                                                           
+200000041 Gary Ross                                                             
+200000003 Michael Ain                                                           
+200000027 Allison Martin                                                        
+200000028 Amber Connery                                                         
+200000006 Eddy Lot                                                              
+200000013 Robert Johnson                                                        
+
+21 rows selected.
+
+
+FACULTYID NAME                                                                  
+--------- --------------------                                                  
+900000003 Wendy Mills                                                           
+900000004 Betty Frank                                                           
+900000005 Tim Jones                                                             
+900000007 Susan Welch                                                           
+900000008 Albert Cole                                                           
+900000009 Victor Olin                                                           
+900000010 Kim Perry                                                             
+900000011 Wally Johnson                                                         
+900000012 Joey Williams                                                         
+900000013 Zach Brown                                                            
+900000014 Kurt Miller                                                           
+
+FACULTYID NAME                                                                  
+--------- --------------------                                                  
+900000016 Jackie Wright                                                         
+900000017 Chris Garcia                                                          
+900000018 Jennifer Walker                                                       
+900000019 Sofia Allen                                                           
+
+15 rows selected.
+
+
+STUDENTNAME                    UIDCODE   DEPT                                   
+------------------------------ --------- ----                                   
+Adrian Adon                    200000021 CHea                                   
+Agnes Wagner                   200000022 Econ                                   
+Albert Hernandez               200000017 Asty                                   
+Alicia Locke                   200000024 Math                                   
+Allen Gosling                  200000026 Biol                                   
+Allison Martin                 200000027 Biol                                   
+Amber Connery                  200000028 Ceng                                   
+Ann King                       200000030 Ceng                                   
+Gary Ross                      200000041 Hist                                   
+Jeff Price                     200000015 Anth                                   
+John Lone                      200000008 Thea                                   
+
+STUDENTNAME                    UIDCODE   DEPT                                   
+------------------------------ --------- ----                                   
+John Pitt                      200000012 Hist                                   
+Julie Turner                   200000044 Acct                                   
+Kal Ward                       200000034 Thea                                   
+Ken Rockin                     200000045 Anth                                   
+Kyle Kicker                    200000005 CmpS                                   
+Manny Hayes                    200000036 Comm                                   
+Michael Ain                    200000003 CmpS                                   
+Ned Biz                        200000010 Engl                                   
+Robert Johnson                 200000013 Mktg                                   
+Thomas Ekin                    200000032 Thea                                   
+Thomas Lewis                   200000020 Chem                                   
+
+STUDENTNAME                    UIDCODE   DEPT                                   
+------------------------------ --------- ----                                   
+Todd Couture                   200000043 Mktg                                   
+Willy Tome                     200000002 CmpS                                   
+
+24 rows selected.
+
+
+DEPT COURSEID_COURSE TITLE                                                      
+---- --------------- ----------------------------------------                   
+CmpS             450 Intro to Database                                          
+
+
+UIDCODE   STUDENTNAME                                                           
+--------- ------------------------------                                        
+200000001 Chris Lee                                                             
+200000003 Michael Ain                                                           
+200000004 Karen Zeen                                                            
+200000007 Boris Silva                                                           
+200000008 John Lone                                                             
+200000020 Thomas Lewis                                                          
+200000026 Allen Gosling                                                         
+200000028 Amber Connery                                                         
+200000030 Ann King                                                              
+200000032 Thomas Ekin                                                           
+
+10 rows selected.
+
+
+DCOD        CNO STUDENT                                                         
+---- ---------- ---------                                                       
+Beng        111 200000003                                                       
+Buss        201 200000008                                                       
+Buss        201 200000011                                                       
+Ceng        101 200000028                                                       
+Ceng        101 200000029                                                       
+Ceng        101 200000030                                                       
+Chem        115 200000020                                                       
+CmpS        450 200000003                                                       
+CmpS        450 200000004                                                       
+Econ        111 200000013                                                       
+Econ        111 200000041                                                       
+
+DCOD        CNO STUDENT                                                         
+---- ---------- ---------                                                       
+Engl        225 200000032                                                       
+Hist        312 200000012                                                       
+Hist        313 200000041                                                       
+Mktg        111 200000042                                                       
+Thea        102 200000027                                                       
+
+16 rows selected.
+
+SQL> spool off;
