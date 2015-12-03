@@ -1,0 +1,28 @@
+create table TIMEANDPLACE
+( DAY varchar(9),
+  BEGIN integer(4,0),
+  END integer(4,0),
+  NUMSEATS: REDUNDANT???
+  ROOM integer(3,0),
+  BUILDING char(3) );
+  
+  
+
+
+insert into TIMEANDPLACE values ('Mon & Wed',0800,0920,400,'AAA');
+insert into TIMEANDPLACE values ('Mon & Wed',0945,1100,400,'AAA');
+insert into TIMEANDPLACE values ('Mon & Wed',1400,1620,401,'AAA');
+insert into TIMEANDPLACE values ('Tues & Thurs',0800,0920,400,'AAA');
+insert into TIMEANDPLACE values ('Tues & Thurs',1800,2340,403,'AAA');
+insert into TIMEANDPLACE values ('Tues',1000,1420,400,'BBB');
+insert into TIMEANDPLACE values ('Wed',1230,1400,402,'BBB');
+insert into TIMEANDPLACE values ('Sat',0800,0920,403,'BBB');
+insert into TIMEANDPLACE values ('Mon & Wed',0800,0920,400,'CCC');
+insert into TIMEANDPLACE values ('Mon & Wed',1420,1500,401,'CCC');
+insert into TIMEANDPLACE values ('Fri',0800,0920,402,'DDD');
+insert into TIMEANDPLACE values ('Mon & Fri',0800,0920,403,'DDD');
+insert into TIMEANDPLACE values ('Mon & Wed',0800,0920,400,'EEE');
+insert into TIMEANDPLACE values ('Thurs',0800,0920,401,'EEE');
+insert into TIMEANDPLACE values ('Thurs',0800,0920,402,'FFF');
+insert into TIMEANDPLACE values ('Mon & Wed',0800,0920,403,'GGG');
+
