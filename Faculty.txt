@@ -1,0 +1,42 @@
+create table FACULTY
+( DEPTCODE char(4),
+  FACULTYID# char(9),
+  NAME varchar2(20),
+  RANK varchar2(20),
+  PHONEEXTENSTION integer,
+  ROOM integer,
+  BUILDING char(3) );  
+  
+insert into FACULTY values ('Math','900000001','John Smith','full',8001,201,501);
+insert into FACULTY values ('CmpS','900000002','Bill Welly','full',8002,202,502);
+insert into FACULTY values ('Biol','900000003','Wendy Mills','full',8003,203,503);
+insert into FACULTY values ('Ceng','900000004','Betty Frank','full',8004,204,504);
+insert into FACULTY values ('Thea','900000005','Tim Jones','full',8005,205,505);
+insert into FACULTY values ('Comm','900000006','Tommy Nak','full',8006,206,506);
+insert into FACULTY values ('Engl','900000007','Susan Welch','full',8007,207,507);
+insert into FACULTY values ('Buss','900000008','Albert Cole','full',8008,208,508);
+insert into FACULTY values ('Hist','900000009','Victor Olin','full',8009,209,509);
+insert into FACULTY values ('Mktg','900000010','Kim Perry','full',8010,210,510);
+insert into FACULTY values ('Acct','900000011','Wally Johnson','full',8011,211,511);
+insert into FACULTY values ('Anth','900000012','Joey Williams','full',8012,212,512);
+insert into FACULTY values ('AHis','900000013','Zach Brown','full',8013,213,513);
+insert into FACULTY values ('Asty','900000014','Kurt Miller','full',8014,214,514);
+insert into FACULTY values ('Attr','900000015','Carl Robinson','full',8015,215,515);
+insert into FACULTY values ('Beng','900000016','Jackie Wright','full',8016,216,516);
+insert into FACULTY values ('Chem','900000017','Chris Garcia','full',8017,217,517);
+insert into FACULTY values ('CHea','900000018','Jennifer Walker','full',8018,218,518);
+insert into FACULTY values ('Econ','900000019','Sofia Allen','full',8019,219,519);
+insert into FACULTY values ('Math','900000020','Ray Hall','full',8020,220,520);
+insert into FACULTY values ('CmpS','900000021','Laura Diaz','adj',8021,221,521,);
+insert into FACULTY values ('CmpS','900000022','Jessica Jenkins','adj',8022,222,522);
+insert into FACULTY values ('Biol','900000023','Robby Sanders','assoc',8023,223,523);
+insert into FACULTY values ('Ceng','900000024','Paul Ross','assoc',8024,224,524);
+insert into FACULTY values ('Thea','900000025','Johnny Welby','assoc',8025,225,525);
+insert into FACULTY values ('Comm','900000026','Henry Reed','adj',8026,226,526);
+insert into FACULTY values ('Engl','900000027','Mary Howard','adj',8027,227,527);
+insert into FACULTY values ('Buss','900000028','Ted Price','asst',8028,228,528);
+insert into FACULTY values ('Hist','900000029','Vicky Bennett','assoc',8029,229,529);
+insert into FACULTY values ('Mktg','900000030','Xavier Morris','asst',8030,230,530);
+insert into FACULTY values ('Mktg','900000031','Hal Gordon','assoc',8031,231,531);
+
+
