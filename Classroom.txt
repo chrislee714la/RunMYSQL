@@ -1,0 +1,37 @@
+create table CLASSROOM
+( ROOM integer,
+  BUILDING char(10),
+  NUMSEATS integer );
+
+
+insert into CLASSROOM values (400,'AAA',50);
+insert into CLASSROOM values (401,'AAA',25);
+insert into CLASSROOM values (402,'AAA',40);
+insert into CLASSROOM values (403,'AAA',300);
+insert into CLASSROOM values (401,'BBB',50);
+insert into CLASSROOM values (402,'BBB',28);
+insert into CLASSROOM values (402,'BBB',410);
+insert into CLASSROOM values (403,'BBB',325);
+insert into CLASSROOM values (400,'CCC',10);
+insert into CLASSROOM values (401,'CCC',70);
+insert into CLASSROOM values (402,'CCC',49);
+insert into CLASSROOM values (403,'CCC',500);
+insert into CLASSROOM values (400,'DDD',80);
+insert into CLASSROOM values (401,'DDD',150);
+insert into CLASSROOM values (402,'DDD',180);
+insert into CLASSROOM values (403,'DDD',625);
+insert into CLASSROOM values (400,'EEE',87);
+insert into CLASSROOM values (401,'EEE',190);
+insert into CLASSROOM values (402,'EEE',40);
+insert into CLASSROOM values (403,'EEE',214);
+insert into CLASSROOM values (400,'FFF',52);
+insert into CLASSROOM values (401,'FFF',20);
+insert into CLASSROOM values (402,'FFF',400);
+insert into CLASSROOM values (403,'FFF',350);
+insert into CLASSROOM values (400,'GGG',150);
+insert into CLASSROOM values (401,'GGG',175);
+insert into CLASSROOM values (402,'GGG',402);
+insert into CLASSROOM values (403,'GGG',442);
+
+
+
